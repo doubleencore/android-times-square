@@ -25,3 +25,5 @@ android {
 dependencies {
     compile 'com.android.support:support-v4:13.0.+'
 }
+
+apply from: "$GRADLE_SCRIPTS/gradle-mvn-push.gradle"
